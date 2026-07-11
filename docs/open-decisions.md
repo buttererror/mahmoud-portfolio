@@ -18,11 +18,11 @@ When a decision is resolved, update its status and move the chosen direction int
 
 ## Final Contact Links
 
-- Status: Open
-- Current default: Use placeholders during development only.
+- Status: Decided
+- Current default: Use LinkedIn, GitHub, and email on the homepage.
 - Options: Email link, LinkedIn link, GitHub link, resume download, contact form, or a subset of these.
-- Recommendation: Use direct email, LinkedIn, GitHub, and resume links for MVP; avoid a contact form until there is a real need.
-- Notes: Visible placeholder links are not production-ready.
+- Recommendation: Use direct email, LinkedIn, and GitHub links for MVP; avoid a contact form until there is a real need.
+- Notes: LinkedIn is `https://linkedin.com/in/buttererror`, GitHub is `https://github.com/buttererror`, and email is `mahmoud@buttererror.com`. Resume behavior remains a separate open decision.
 
 ## Personal And Work Evidence Inputs
 
@@ -30,7 +30,15 @@ When a decision is resolved, update its status and move the chosen direction int
 - Current default: Ask Mahmoud for additional background or GPT-extracted context when needed.
 - Options: Provide details directly in chat, provide a GPT-generated summary for review, or defer until a specific section needs the detail.
 - Recommendation: Request only the info needed for the current decision or public claim, then keep unsupported details out of the site.
-- Notes: Useful inputs include role targets, final links, resume facts, screenshots, real metrics, case-study responsibilities, constraints, team role, and privacy boundaries.
+- Notes: Useful inputs include role targets, final links, resume facts, screenshots, real metrics, case-study responsibilities, constraints, team role, and privacy boundaries. Treat private context as source material only; publish generalized, approved facts.
+
+## Privacy Review After Tasks
+
+- Status: Decided
+- Current default: Review changed files for privacy leaks before calling each task complete.
+- Options: Manual review, targeted text search, or both.
+- Recommendation: Use both when content changes: manually review UI/docs/metadata and search for known private names or domains.
+- Notes: Check public UI, metadata, README/docs, alt text, data files, and link placeholders.
 
 ## Resume Behavior
 
@@ -66,11 +74,11 @@ When a decision is resolved, update its status and move the chosen direction int
 
 ## Visual Direction References
 
-- Status: Open
-- Current default: Clean, modern, readable, recruiter-friendly design.
+- Status: Decided
+- Current default: Clean, professional, recruiter-friendly layout with strong typography, clear spacing, high contrast, responsive structure, fast loading, easy scanning, and public-safe content.
 - Options: Minimal editorial, compact dashboard-inspired, or case-study-heavy portfolio.
-- Recommendation: Start with a compact dashboard-inspired portfolio because it supports the target positioning without becoming decorative.
-- Notes: Ask before locking visual direction if design references are provided later.
+- Recommendation: Use the homepage layout in [portfolio-brief.md](portfolio-brief.md) as the current direction.
+- Notes: Avoid heavy animations, 3D effects, overdesigned visuals, long paragraphs, generic template look, private screenshots, and company-specific stack exposure.
 
 ## Code Organization Scale
 

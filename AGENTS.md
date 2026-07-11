@@ -42,6 +42,7 @@ When building the portfolio, replace the default starter content with project-sp
 - When multiple reasonable paths exist, raise the tradeoff and give a recommendation with reasons.
 - Ask before implementing meaningful ambiguity in product direction, architecture, code organization, routing, data shape, visual direction, SEO, accessibility, or deployment.
 - When personal background, work evidence, links, metrics, screenshots, or case-study facts would improve accuracy, ask Mahmoud for that information. He may extract extra context from GPT when needed.
+- Treat private information as source material, not publishable copy. Extract only public-safe facts needed for the portfolio and generalize or omit sensitive details.
 - Follow existing repo patterns for small mechanical choices that are already clear.
 - If a decision remains unresolved, add or update it in [docs/open-decisions.md](docs/open-decisions.md) instead of silently choosing.
 
@@ -56,6 +57,35 @@ When building the portfolio, replace the default starter content with project-sp
 - Avoid dependencies unless the benefit is clear for the MVP.
 - If a change affects UI, check responsive behavior before considering it done.
 - Keep public-facing claims accurate and evidence-based.
+
+## Content Evidence And Privacy
+
+Use private/GPT-extracted background only to improve accuracy and judgment. Do not copy it directly into public UI, metadata, docs, or README content unless it is explicitly public-safe.
+
+Useful evidence to ask for when challenging or refining GPT-generated content:
+
+- Final links: GitHub, LinkedIn, email, resume, and live demos.
+- Role targets: the job titles, seniority, markets, and work types Mahmoud wants to optimize for.
+- Case-study facts: what Mahmoud personally built, tools used, constraints, team role, and outcomes.
+- Proof assets: screenshots, public demos, public repos, public docs, and real metrics.
+- Privacy boundaries: company names, project names, domains, client names, internal tools, and implementation details that must stay private.
+- Resume/profile facts: dates, titles, responsibilities, and wording Mahmoud is comfortable making public.
+
+When using private evidence:
+
+- Convert it into generalized, recruiter-safe claims.
+- Prefer categories over names when names are private, such as "healthcare dashboard" or "full-stack web app."
+- Keep metrics out unless Mahmoud provides real evidence and confirms they can be public.
+- Keep private source notes out of tracked public docs unless they are already generalized.
+- Do not link to, name, or require hidden private context files from tracked public docs or public UI. If private context exists, ask Mahmoud for the relevant public-safe facts instead.
+- Add unresolved privacy/content questions to [docs/open-decisions.md](docs/open-decisions.md).
+
+After every task, review the changed files for:
+
+- Private project names, company names, domains, client names, or internal tool names.
+- Unsupported metrics, exaggerated claims, or invented evidence.
+- Fake links, placeholder links that look production-ready, or personal details Mahmoud has not approved.
+- Metadata, alt text, README/docs copy, and UI text that may expose private information.
 
 ## Commit Strategy
 
