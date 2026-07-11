@@ -82,8 +82,8 @@ When a decision is resolved, update its status and move the chosen direction int
 
 ## Code Organization Scale
 
-- Status: Open
-- Current default: `src/app`, `src/components`, `src/data`, and `src/lib`.
-- Options: Keep simple folders, use feature folders, or use route-local components for each page.
-- Recommendation: Start with simple folders for MVP; revisit if pages become complex.
-- Notes: Discuss before introducing a larger architecture pattern.
+- Status: Decided
+- Current default: Grow architecture while building the homepage.
+- Options: Keep simple folders, use feature folders, use route-local components, or create one component per homepage section upfront.
+- Recommendation: Use a balanced approach: keep `src/app/page.tsx` as the composition map, use generic reusable cards/buttons/wrappers, and extract major section components only when they make a slice easier to review or maintain.
+- Notes: Decision by Mahmoud. Review each slice before moving to the next one, then revise the next slice's structure, content, and styling as needed. See [homepage-implementation-plan.md](homepage-implementation-plan.md).
