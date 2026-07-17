@@ -46,9 +46,3 @@ export const contactLinks: PortfolioLink[] = [
     isExternal: true,
   },
 ];
-
-export const resumeLink: PortfolioLink = {
-  label: "Resume",
-  href: null,
-  isExternal: true,
-};

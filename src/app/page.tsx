@@ -107,40 +107,42 @@ export default function Home() {
         </Section>
 
         <Section
+          id="current-direction"
           eyebrow="Career direction"
-          title="Focused on frontend strength, with backend growth in progress."
+          title="Current direction"
           description={profile.careerDirection}
+          tone="white"
         >
-          <div className="rounded-md border border-zinc-200 bg-white p-6 shadow-sm shadow-zinc-200/60">
-            <p className="max-w-3xl text-base leading-7 text-zinc-600">
-              The portfolio should make one message obvious: Mahmoud can build production UI,
-              dashboards, SEO-focused pages, and reliable frontend experiences with React.js,
-              Next.js, and TypeScript.
-            </p>
+          <div className="grid gap-6 border-t border-zinc-200 pt-6 md:grid-cols-2 md:gap-10">
+            <p className="text-base leading-7 text-zinc-700">{profile.roleDirection}</p>
+            <div className="border-l-2 border-teal-600 pl-4">
+              <p className="text-sm font-semibold text-zinc-950">Expanding product perspective</p>
+              <p className="mt-2 text-sm leading-6 text-zinc-600">
+                {profile.backendDirection}
+              </p>
+            </div>
           </div>
         </Section>
 
-        <section id="contact" className="scroll-mt-24 bg-white py-14 sm:py-18">
-          <div className="mx-auto w-full max-w-6xl px-5 sm:px-6 lg:px-8">
-            <div className="rounded-md border border-zinc-200 bg-zinc-950 p-6 text-white sm:p-8">
-              <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
-                <div>
-                  <p className="text-sm font-semibold uppercase text-teal-300">
-                    Contact
-                  </p>
-                  <h2 className="mt-3 text-2xl font-bold sm:text-3xl">
-                    Interested in React, Next.js, dashboard, SEO, or performance work?
-                  </h2>
-                  <p className="mt-4 max-w-2xl text-sm leading-6 text-zinc-300">
-                    {profile.contactMessage}
-                  </p>
-                </div>
-                <div className="flex flex-wrap gap-3">
-                  {contactLinks.map((link) => (
-                    <CtaLink key={link.label} link={link} variant="secondary" />
-                  ))}
-                </div>
-              </div>
+        <section
+          id="contact"
+          aria-labelledby="contact-title"
+          className="scroll-mt-24 bg-zinc-950 py-14 text-white sm:py-18"
+        >
+          <div className="mx-auto grid w-full max-w-6xl gap-8 px-5 sm:px-6 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:px-8">
+            <div>
+              <p className="text-sm font-semibold uppercase text-teal-300">Contact</p>
+              <h2 id="contact-title" className="mt-3 text-2xl font-bold sm:text-3xl">
+                Let&apos;s connect
+              </h2>
+              <p className="mt-4 max-w-2xl text-base leading-7 text-zinc-300">
+                {profile.contactMessage}
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              {contactLinks.map((link) => (
+                <CtaLink key={link.label} link={link} variant="secondary" />
+              ))}
             </div>
           </div>
         </section>
