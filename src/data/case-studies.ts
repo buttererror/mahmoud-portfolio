@@ -8,25 +8,32 @@ export type CaseStudy = {
 
 export const selectedCaseStudies: CaseStudy[] = [
   {
-    title: "Renohome Website",
+    title: "Frontend Platforms And Dashboards",
     summary:
-      "Built frontend pages with Next.js App Router and TypeScript, supporting SEO-focused structure, performance improvements, deployment, and production release work.",
-    tags: ["Next.js", "TypeScript", "SEO", "Vercel"],
+      "Worked on dashboard applications across B2B and B2C contexts, including admin dashboards, contractor workflows, service-provider tools, operations platforms, and internal business applications.",
+    tags: ["Dashboard interfaces", "API-driven frontend", "Reusable UI patterns"],
+    href: null,
+  },
+  {
+    title: "Renohome Frontend Delivery",
+    summary:
+      "Worked on frontend delivery for a renovation platform, including public-facing pages, dashboard interfaces, frontend architecture, infrastructure support, progressive refactoring, and cross-functional collaboration.",
+    tags: ["Feature delivery", "Progressive refactoring", "Production reliability"],
     href: null,
     note: "The live website may have changed after Mahmoud's contribution.",
   },
   {
-    title: "React Dashboards",
+    title: "SEO And Performance-Focused Websites",
     summary:
-      "Worked on dashboard interfaces for contractor, admin, healthcare, e-commerce, and travel workflows with reusable UI patterns and API integration.",
-    tags: ["React.js", "TypeScript", "Dashboards", "API Integration"],
+      "Worked on public websites and landing pages with a focus on responsive UI, technical SEO readiness, page structure, performance improvements, image optimization, and maintainable frontend implementation.",
+    tags: ["SEO", "Performance", "Maintainability"],
     href: null,
   },
   {
-    title: "Healthtech Video Consultation App",
+    title: "Healthtech Applications",
     summary:
-      "Contributed to healthcare-specific video consultation workflows using SPA architecture and collaboration across backend and system administration teams.",
-    tags: ["SPA", "Twilio", "QuickBlox", "Healthcare UI"],
+      "Worked on healthtech frontend applications including service-provider tools, operations workflows, hospital system interfaces, landing pages, and doctor consultation experiences.",
+    tags: ["Product interfaces", "Complex workflows", "Frontend delivery"],
     href: null,
   },
 ];

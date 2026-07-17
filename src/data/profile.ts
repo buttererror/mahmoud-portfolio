@@ -2,13 +2,21 @@ export const profile = {
   name: "Mahmoud Ahmed",
   role: "Front-End Developer",
   headline:
-    "Front-End Developer focused on React.js, Next.js, TypeScript, dashboards, SEO, and performance.",
+    "I build frontend platforms, dashboards, and public websites focused on performance, SEO, and reliable product delivery.",
   summary:
-    "I build production web applications, landing pages, and dashboard interfaces with a focus on clean UI, performance, SEO, and reliable frontend delivery.",
+    "I'm a Front-End Developer with 7+ years of experience building production web applications, landing pages, dashboards, and internal platforms across renovation, healthtech, travel, e-commerce, and operations domains.",
+  workFocus:
+    "My work sits between UI implementation, frontend architecture, API integration, SEO, performance optimization, and production delivery.",
   careerDirection:
-    "Currently expanding backend experience with Node.js, NestJS, PostgreSQL, and Prisma while staying focused on production-ready frontend delivery.",
+    "My main professional focus is frontend development with React.js, Next.js, TypeScript, dashboards, SEO, and performance optimization.",
+  backendDirection:
+    "I'm also expanding my backend knowledge with Node.js, NestJS, PostgreSQL, and Prisma to better understand full product delivery and improve frontend-backend collaboration.",
+  roleDirection:
+    "I'm currently focused on roles where I can contribute to production frontend applications, dashboard interfaces, scalable UI systems, and performance-focused web experiences.",
+  contactMessage:
+    "I'm open to frontend opportunities focused on React.js, Next.js, TypeScript, dashboard applications, SEO, performance, and modern web platforms.",
   footerNote:
-    "React.js, Next.js, and TypeScript frontend work for production UI, dashboards, SEO-focused pages, and reliable delivery.",
+    "Front-End Developer focused on React.js, Next.js, TypeScript, dashboards, SEO, performance, and reliable frontend delivery.",
 };
 
 export const homepageStats = [

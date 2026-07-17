@@ -14,13 +14,33 @@ export const navigationLinks: PortfolioLink[] = [
 
 export const heroLinks: PortfolioLink[] = [
   { label: "View Case Studies", href: "#case-studies", isPrimary: true },
-  { label: "View GitHub", href: null, isExternal: true },
-  { label: "Contact Me", href: "#contact" },
+  {
+    label: "View GitHub",
+    href: "https://github.com/buttererror",
+    isExternal: true,
+  },
 ];
 
 export const contactLinks: PortfolioLink[] = [
-  { label: "Email", href: null, isPrimary: true },
-  { label: "LinkedIn", href: null, isExternal: true },
-  { label: "GitHub", href: null, isExternal: true },
-  { label: "Resume", href: null, isExternal: true },
+  {
+    label: "Email",
+    href: "mailto:mahmoud@buttererror.com",
+    isPrimary: true,
+  },
+  {
+    label: "LinkedIn",
+    href: "https://linkedin.com/in/buttererror",
+    isExternal: true,
+  },
+  {
+    label: "GitHub",
+    href: "https://github.com/buttererror",
+    isExternal: true,
+  },
 ];
+
+export const resumeLink: PortfolioLink = {
+  label: "Resume",
+  href: null,
+  isExternal: true,
+};
