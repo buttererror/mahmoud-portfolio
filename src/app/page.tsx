@@ -1,4 +1,5 @@
 import { CaseStudyCard } from "@/components/cards/case-study-card";
+import { EngineeringFocusCard } from "@/components/cards/engineering-focus-card";
 import { InfoCard } from "@/components/cards/info-card";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -7,9 +8,9 @@ import { CtaLink } from "@/components/ui/cta-link";
 import { coreFrontendCapabilities } from "@/data/capabilities";
 import { selectedCaseStudies } from "@/data/case-studies";
 import { domainExperience } from "@/data/domains";
+import { frontendEngineeringFocus } from "@/data/focus-areas";
 import { contactLinks, heroLinks } from "@/data/links";
 import { profile } from "@/data/profile";
-import { techStack } from "@/data/skills";
 
 export default function Home() {
   return (
@@ -93,29 +94,14 @@ export default function Home() {
         </Section>
 
         <Section
-          id="tech-stack"
-          eyebrow="Tech stack"
-          title="Tools organized around frontend delivery."
-          description="A compact stack view keeps the focus on the role target while acknowledging backend growth as secondary."
+          id="engineering-focus"
+          eyebrow="Engineering approach"
+          title="Frontend engineering focus"
+          description="The tools vary by project, but my frontend work is consistently focused on clarity, maintainability, performance, and product delivery."
         >
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-            {techStack.map((group) => (
-              <article
-                key={group.title}
-                className="rounded-md border border-zinc-200 bg-white p-5 shadow-sm shadow-zinc-200/60"
-              >
-                <h3 className="text-base font-semibold text-zinc-950">{group.title}</h3>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {group.items.map((item) => (
-                    <span
-                      key={item}
-                      className="rounded-md bg-blue-50 px-2.5 py-1 text-xs font-medium text-blue-950"
-                    >
-                      {item}
-                    </span>
-                  ))}
-                </div>
-              </article>
+          <div className="grid gap-4 md:grid-cols-2">
+            {frontendEngineeringFocus.map((focusArea) => (
+              <EngineeringFocusCard key={focusArea.title} focusArea={focusArea} />
             ))}
           </div>
         </Section>
