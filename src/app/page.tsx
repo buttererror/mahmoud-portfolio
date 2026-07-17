@@ -15,8 +15,14 @@ import { profile } from "@/data/profile";
 export default function Home() {
   return (
     <div id="top" className="min-h-screen bg-zinc-50 text-zinc-950">
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-white focus:px-4 focus:py-3 focus:text-sm focus:font-semibold focus:text-zinc-950 focus:shadow-lg focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-zinc-950"
+      >
+        Skip to main content
+      </a>
       <SiteHeader />
-      <main>
+      <main id="main-content" tabIndex={-1} className="focus:outline-none">
         <section aria-labelledby="hero-title" className="border-b border-zinc-200 bg-white">
           <div className="mx-auto w-full max-w-6xl px-5 pb-4 pt-8 sm:px-6 sm:py-16 lg:px-8">
             <div className="max-w-5xl">
@@ -127,7 +133,7 @@ export default function Home() {
         <section
           id="contact"
           aria-labelledby="contact-title"
-          className="scroll-mt-24 bg-zinc-950 py-14 text-white sm:py-18"
+          className="scroll-mt-32 bg-zinc-950 py-14 text-white sm:py-18"
         >
           <div className="mx-auto grid w-full max-w-6xl gap-8 px-5 sm:px-6 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center lg:px-8">
             <div>

@@ -2,6 +2,19 @@
 
 This plan guides the homepage refactor from the current prototype toward the latest direction in [portfolio-brief.md](portfolio-brief.md).
 
+## Status
+
+Implemented and verified. Public-safe visual evidence remains an open refinement decision.
+
+The final homepage audit confirmed:
+
+- One semantic `h1` and consistent section heading hierarchy.
+- Keyboard-accessible navigation with a skip link and visible focus states.
+- Real GitHub, LinkedIn, and email destinations with no fake public links.
+- Responsive layouts at mobile, tablet, and desktop widths.
+- Public-safe copy with no hidden source names or private project details.
+- Successful lint and production build checks.
+
 ## Strategy
 
 Keep the current homepage prototype. Do not revert and restart from scratch.
@@ -118,7 +131,7 @@ Refactor case studies to the four-card model:
 - SEO And Performance-Focused Websites.
 - Healthtech Applications.
 
-Use public-safe summaries and placeholder CTAs only when detail pages do not exist.
+Use public-safe summaries and render CTAs only when real detail pages exist.
 
 ### Slice 4 Review
 
@@ -188,9 +201,9 @@ Suggested privacy search targets:
 
 ## Private Context Rule
 
-`docs/complete-info.md` is private source material and is ignored by git.
+Private source notes are ignored by git.
 
-Do not link to it from tracked docs, source code, public UI, metadata, or README content. When private context is needed, ask Mahmoud for the specific public-safe facts to use, then publish only generalized or approved content.
+Do not name or link to hidden private sources from tracked docs, source code, public UI, metadata, or README content. When private context is needed, ask Mahmoud for the specific public-safe facts to use, then publish only generalized or approved content.
 
 ## Done Criteria
 

@@ -16,16 +16,16 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
           </p>
         ) : null}
       </div>
-      <div className="mt-5 flex flex-wrap gap-2">
+      <ul className="mt-5 flex flex-wrap gap-2" aria-label="Case study focus areas">
         {caseStudy.tags.map((tag) => (
-          <span
+          <li
             key={tag}
             className="rounded-md border border-zinc-200 bg-zinc-50 px-2.5 py-1 text-xs font-medium text-zinc-700"
           >
             {tag}
-          </span>
+          </li>
         ))}
-      </div>
+      </ul>
       {caseStudy.href ? (
         <a
           href={caseStudy.href}

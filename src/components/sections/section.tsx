@@ -23,7 +23,7 @@ export function Section({
   tone = "default",
 }: SectionProps) {
   return (
-    <section id={id} className={`scroll-mt-24 py-14 sm:py-18 ${toneClasses[tone]}`}>
+    <section id={id} className={`scroll-mt-32 py-14 sm:py-18 ${toneClasses[tone]}`}>
       <div className="mx-auto w-full max-w-6xl px-5 sm:px-6 lg:px-8">
         <div className="mb-8 max-w-3xl">
           {eyebrow ? (

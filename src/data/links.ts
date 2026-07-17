@@ -1,15 +1,11 @@
 export type PortfolioLink = {
   label: string;
-  href: string | null;
+  href: string;
   isPrimary?: boolean;
   isExternal?: boolean;
 };
 
-export type ResolvedPortfolioLink = Omit<PortfolioLink, "href"> & {
-  href: string;
-};
-
-export const navigationLinks: ResolvedPortfolioLink[] = [
+export const navigationLinks: PortfolioLink[] = [
   { label: "Case Studies", href: "#case-studies" },
   { label: "Contact", href: "#contact" },
 ];

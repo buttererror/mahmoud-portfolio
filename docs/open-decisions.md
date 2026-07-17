@@ -80,6 +80,30 @@ When a decision is resolved, update its status and move the chosen direction int
 - Recommendation: Use the homepage layout in [portfolio-brief.md](portfolio-brief.md) as the current direction.
 - Notes: Avoid heavy animations, 3D effects, overdesigned visuals, long paragraphs, generic template look, private screenshots, and company-specific stack exposure.
 
+## Homepage Visual Evidence
+
+- Status: Open
+- Current default: Keep the homepage text-first until public-safe work visuals are approved.
+- Options: Approved project screenshots, public product imagery, purpose-built diagrams, or no imagery for the MVP.
+- Recommendation: Prefer real public-safe project evidence when available. Do not use private dashboard screenshots or decorative stock imagery that implies unsupported work.
+- Notes: Any asset must be reviewed for company names, domains, client data, internal workflows, and other identifying details before publication.
+
+## Production URL And Social Metadata
+
+- Status: Open
+- Current default: Keep the verified title and description metadata without inventing a canonical URL or social preview image.
+- Options: Add canonical and Open Graph metadata after deployment, or configure them earlier when a final domain and approved preview asset are available.
+- Recommendation: Add canonical URL, Open Graph URL, and social preview imagery together after the production domain is confirmed.
+- Notes: Do not publish a temporary domain or unreviewed image as permanent metadata.
+
+## Projects Navigation Timing
+
+- Status: Decided
+- Current default: Omit Projects from homepage navigation until `/projects` exists.
+- Options: Omit the link, show a disabled placeholder, or publish the route first.
+- Recommendation: Publish only working navigation destinations.
+- Notes: Add Projects to the header when the Projects route is implemented and verified.
+
 ## Code Organization Scale
 
 - Status: Decided
