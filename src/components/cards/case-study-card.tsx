@@ -29,13 +29,12 @@ export function CaseStudyCard({ caseStudy }: CaseStudyCardProps) {
       {caseStudy.href ? (
         <a
           href={caseStudy.href}
+          aria-label={`View case study: ${caseStudy.title}`}
           className="mt-5 text-sm font-semibold text-teal-700 hover:text-teal-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-zinc-950"
         >
-          Read case study
+          View case study
         </a>
-      ) : (
-        <span className="mt-5 text-sm font-semibold text-zinc-400">Case study page coming later</span>
-      )}
+      ) : null}
     </article>
   );
 }

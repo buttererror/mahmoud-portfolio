@@ -80,11 +80,12 @@ export default function Home() {
 
         <Section
           id="case-studies"
-          eyebrow="Selected case studies"
-          title="Proof areas recruiters can scan quickly."
-          description="These summaries stay public-safe and avoid unsupported metrics or confidential implementation details."
+          eyebrow="Selected work"
+          title="Selected case studies"
+          description="Most of my professional work is private, so these case studies focus on public-safe summaries of responsibilities, product context, frontend decisions, and engineering approach."
+          tone="white"
         >
-          <div className="grid gap-4 lg:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-2">
             {selectedCaseStudies.map((caseStudy) => (
               <CaseStudyCard key={caseStudy.title} caseStudy={caseStudy} />
             ))}
