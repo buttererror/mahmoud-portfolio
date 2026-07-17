@@ -1,7 +1,5 @@
-export type { FrontendCapability as ExpertiseItem } from "./capabilities";
 export type { EngineeringFocusArea as TechStackGroup } from "./focus-areas";
 
-// Temporary compatibility exports for the prototype page. Later UI slices will
-// consume the domain-specific names directly and remove this bridge.
-export { coreFrontendCapabilities as expertiseItems } from "./capabilities";
+// Temporary compatibility export for the prototype engineering-focus section.
+// Slice 5 will consume the domain-specific name directly and remove this bridge.
 export { frontendEngineeringFocus as techStack } from "./focus-areas";

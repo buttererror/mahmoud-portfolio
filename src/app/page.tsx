@@ -1,13 +1,15 @@
 import { CaseStudyCard } from "@/components/cards/case-study-card";
-import { ExpertiseCard } from "@/components/cards/expertise-card";
+import { InfoCard } from "@/components/cards/info-card";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { Section } from "@/components/sections/section";
 import { CtaLink } from "@/components/ui/cta-link";
+import { coreFrontendCapabilities } from "@/data/capabilities";
 import { selectedCaseStudies } from "@/data/case-studies";
+import { domainExperience } from "@/data/domains";
 import { contactLinks, heroLinks } from "@/data/links";
 import { profile } from "@/data/profile";
-import { expertiseItems, techStack } from "@/data/skills";
+import { techStack } from "@/data/skills";
 
 export default function Home() {
   return (
@@ -46,14 +48,32 @@ export default function Home() {
         </section>
 
         <Section
-          id="expertise"
-          eyebrow="Core expertise"
-          title="Frontend work shaped around real delivery."
-          description="The homepage focuses on the areas most relevant to React and Next.js roles: production UI, dashboard workflows, SEO, performance, and deployment support."
+          id="experience"
+          eyebrow="Domain experience"
+          title="Frontend experience across products and industries"
+          description="I've worked on frontend applications across different domains and product types, from public websites to internal dashboards and operational platforms."
+          tone="white"
+        >
+          <div className="grid gap-4 md:grid-cols-12">
+            {domainExperience.map((item, index) => (
+              <InfoCard
+                key={item.title}
+                item={item}
+                className={index < 3 ? "md:col-span-6 lg:col-span-4" : "md:col-span-6"}
+              />
+            ))}
+          </div>
+        </Section>
+
+        <Section
+          id="capabilities"
+          eyebrow="Core capabilities"
+          title="Core frontend capabilities"
+          description="I focus on building frontend systems that are usable, maintainable, performant, and aligned with product needs."
         >
           <div className="grid gap-4 md:grid-cols-2">
-            {expertiseItems.map((item) => (
-              <ExpertiseCard key={item.title} item={item} />
+            {coreFrontendCapabilities.map((item) => (
+              <InfoCard key={item.title} item={item} />
             ))}
           </div>
         </Section>

@@ -6,11 +6,24 @@ type SectionProps = {
   title: string;
   description?: string;
   children: ReactNode;
+  tone?: "default" | "white";
 };
 
-export function Section({ id, eyebrow, title, description, children }: SectionProps) {
+const toneClasses = {
+  default: "bg-zinc-50",
+  white: "bg-white",
+};
+
+export function Section({
+  id,
+  eyebrow,
+  title,
+  description,
+  children,
+  tone = "default",
+}: SectionProps) {
   return (
-    <section id={id} className="scroll-mt-24 py-14 sm:py-18">
+    <section id={id} className={`scroll-mt-24 py-14 sm:py-18 ${toneClasses[tone]}`}>
       <div className="mx-auto w-full max-w-6xl px-5 sm:px-6 lg:px-8">
         <div className="mb-8 max-w-3xl">
           {eyebrow ? (
