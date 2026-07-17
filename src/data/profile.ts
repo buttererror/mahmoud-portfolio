@@ -18,9 +18,3 @@ export const profile = {
   footerNote:
     "Front-End Developer focused on React.js, Next.js, TypeScript, dashboards, SEO, performance, and reliable frontend delivery.",
 };
-
-export const homepageStats = [
-  { label: "Primary focus", value: "Frontend" },
-  { label: "Delivery areas", value: "UI, SEO, performance" },
-  { label: "Project style", value: "Production-ready" },
-];

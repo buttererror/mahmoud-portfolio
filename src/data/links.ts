@@ -5,12 +5,20 @@ export type PortfolioLink = {
   isExternal?: boolean;
 };
 
-export const navigationLinks: PortfolioLink[] = [
-  { label: "Expertise", href: "#expertise" },
+export type ResolvedPortfolioLink = Omit<PortfolioLink, "href"> & {
+  href: string;
+};
+
+export const navigationLinks: ResolvedPortfolioLink[] = [
   { label: "Case Studies", href: "#case-studies" },
-  { label: "Tech Stack", href: "#tech-stack" },
   { label: "Contact", href: "#contact" },
 ];
+
+export const headerContactLink: PortfolioLink = {
+  label: "Get in Touch",
+  href: "#contact",
+  isPrimary: true,
+};
 
 export const heroLinks: PortfolioLink[] = [
   { label: "View Case Studies", href: "#case-studies", isPrimary: true },

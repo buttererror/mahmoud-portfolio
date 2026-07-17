@@ -6,7 +6,7 @@ import { Section } from "@/components/sections/section";
 import { CtaLink } from "@/components/ui/cta-link";
 import { selectedCaseStudies } from "@/data/case-studies";
 import { contactLinks, heroLinks } from "@/data/links";
-import { homepageStats, profile } from "@/data/profile";
+import { profile } from "@/data/profile";
 import { expertiseItems, techStack } from "@/data/skills";
 
 export default function Home() {
@@ -14,45 +14,34 @@ export default function Home() {
     <div id="top" className="min-h-screen bg-zinc-50 text-zinc-950">
       <SiteHeader />
       <main>
-        <section className="border-b border-zinc-200 bg-white">
-          <div className="mx-auto grid w-full max-w-6xl gap-10 px-5 py-16 sm:px-6 sm:py-20 lg:grid-cols-[minmax(0,1.35fr)_minmax(320px,0.65fr)] lg:px-8 lg:py-24">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-wide text-teal-700">
+        <section aria-labelledby="hero-title" className="border-b border-zinc-200 bg-white">
+          <div className="mx-auto w-full max-w-6xl px-5 pb-4 pt-8 sm:px-6 sm:py-16 lg:px-8">
+            <div className="max-w-5xl">
+              <p className="text-sm font-semibold uppercase text-teal-700">
                 {profile.role}
               </p>
-              <h1 className="mt-5 max-w-4xl text-4xl font-bold tracking-tight text-zinc-950 sm:text-5xl lg:text-6xl">
+              <h1
+                id="hero-title"
+                className="mt-3 max-w-5xl text-[1.75rem] font-bold leading-tight text-zinc-950 sm:mt-5 sm:text-5xl lg:text-6xl"
+              >
                 {profile.headline}
               </h1>
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">{profile.summary}</p>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <div className="mt-4 max-w-3xl space-y-2 text-sm leading-6 text-zinc-600 sm:mt-6 sm:space-y-3 sm:text-lg sm:leading-8">
+                <p>{profile.summary}</p>
+                <p>{profile.workFocus}</p>
+              </div>
+              <div className="mt-5 flex flex-wrap gap-3 sm:mt-8">
                 {heroLinks.map((link) => (
                   <CtaLink key={link.label} link={link} />
                 ))}
               </div>
-            </div>
-
-            <aside
-              aria-label="Portfolio focus summary"
-              className="rounded-md border border-zinc-200 bg-zinc-50 p-5 shadow-sm shadow-zinc-200/60"
-            >
-              <div className="grid gap-3">
-                {homepageStats.map((stat) => (
-                  <div
-                    key={stat.label}
-                    className="rounded-md border border-zinc-200 bg-white px-4 py-3"
-                  >
-                    <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-                      {stat.label}
-                    </p>
-                    <p className="mt-1 text-base font-semibold text-zinc-950">{stat.value}</p>
-                  </div>
+              <div className="mt-6 flex flex-wrap items-center gap-x-1 gap-y-1 border-t border-zinc-200 pt-4 sm:mt-8 sm:pt-5">
+                <span className="mr-3 text-sm font-medium text-zinc-500">Connect</span>
+                {contactLinks.map((link) => (
+                  <CtaLink key={link.label} link={link} variant="quiet" />
                 ))}
               </div>
-              <div className="mt-5 rounded-md border border-teal-200 bg-teal-50 px-4 py-4">
-                <p className="text-sm font-semibold text-teal-950">Current direction</p>
-                <p className="mt-2 text-sm leading-6 text-teal-900">{profile.careerDirection}</p>
-              </div>
-            </aside>
+            </div>
           </div>
         </section>
 
@@ -129,15 +118,14 @@ export default function Home() {
             <div className="rounded-md border border-zinc-200 bg-zinc-950 p-6 text-white sm:p-8">
               <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
                 <div>
-                  <p className="text-sm font-semibold uppercase tracking-wide text-teal-300">
+                  <p className="text-sm font-semibold uppercase text-teal-300">
                     Contact
                   </p>
-                  <h2 className="mt-3 text-2xl font-bold tracking-tight sm:text-3xl">
+                  <h2 className="mt-3 text-2xl font-bold sm:text-3xl">
                     Interested in React, Next.js, dashboard, SEO, or performance work?
                   </h2>
                   <p className="mt-4 max-w-2xl text-sm leading-6 text-zinc-300">
-                    Final contact links are still being confirmed. Placeholder states are visible
-                    here so the layout can be reviewed without inventing links.
+                    {profile.contactMessage}
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-3">
