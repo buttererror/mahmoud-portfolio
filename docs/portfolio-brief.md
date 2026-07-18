@@ -79,7 +79,7 @@ Label:
 
 Headline:
 
-> I build frontend platforms, dashboards, and public websites focused on performance, SEO, and reliable product delivery.
+> I build React.js and Next.js frontend platforms, dashboards, and public websites focused on performance, SEO, and reliable frontend delivery.
 
 Supporting text:
 
@@ -193,7 +193,7 @@ Layout notes:
 - Full details belong on individual case-study pages.
 - Do not expose exact company tech stacks.
 - Do not include screenshots from private dashboards.
-- Note for Renohome: the live website may have changed after Mahmoud's contribution.
+- Renohome disclaimer: "Note: The current live website may differ from the version I worked on."
 
 ### 6. Frontend Engineering Focus
 
@@ -210,7 +210,7 @@ Focus areas:
 - Modern Frontend Development: React.js, Next.js, TypeScript, JavaScript, Vue.js, Nuxt.js, component-based UI, routing, state management, and API-driven interfaces.
 - UI Systems And Forms: Reusable components, responsive layouts, design-system collaboration, form handling, validation, tables, filters, dashboards, and complex user flows.
 - SEO And Performance: Core Web Vitals, Lighthouse, metadata, semantic structure, image optimization, lazy loading, bundle awareness, and public-page performance improvements.
-- Delivery And Collaboration: Git, CI/CD awareness, deployment coordination, frontend infrastructure support, debugging, production issue handling, and collaboration with backend, product, UI/UX, SEO, and operations teams.
+- Delivery And Collaboration: Git, CI/CD and deployment workflows, deployment coordination, frontend infrastructure support, debugging, production issue handling, and collaboration with backend, product, UI/UX, SEO, and operations teams.
 
 Layout notes:
 

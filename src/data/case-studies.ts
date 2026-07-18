@@ -20,7 +20,7 @@ export const selectedCaseStudies: CaseStudy[] = [
       "Worked on frontend delivery for a renovation platform, including public-facing pages, dashboard interfaces, frontend architecture, infrastructure support, progressive refactoring, and cross-functional collaboration.",
     tags: ["Feature delivery", "Progressive refactoring", "Production reliability"],
     href: null,
-    note: "The live website may have changed after Mahmoud's contribution.",
+    note: "Note: The current live website may differ from the version I worked on.",
   },
   {
     title: "SEO And Performance-Focused Websites",

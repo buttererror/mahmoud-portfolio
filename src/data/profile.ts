@@ -2,7 +2,7 @@ export const profile = {
   name: "Mahmoud Ahmed",
   role: "Front-End Developer",
   headline:
-    "I build frontend platforms, dashboards, and public websites focused on performance, SEO, and reliable product delivery.",
+    "I build React.js and Next.js frontend platforms, dashboards, and public websites focused on performance, SEO, and reliable frontend delivery.",
   summary:
     "I'm a Front-End Developer with 7+ years of experience building production web applications, landing pages, dashboards, and internal platforms across renovation, healthtech, travel, e-commerce, and operations domains.",
   workFocus:
