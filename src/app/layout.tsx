@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+const siteUrl = "https://www.buttererror.com";
+const siteTitle = "Mahmoud Ahmed | Front-End Developer";
+const siteDescription =
+  "Front-End Developer focused on React.js, Next.js, TypeScript, dashboards, SEO, performance, and reliable frontend delivery.";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,9 +18,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mahmoud Ahmed | Front-End Developer",
-  description:
-    "Front-End Developer focused on React.js, Next.js, TypeScript, dashboards, SEO, performance, and reliable frontend delivery.",
+  metadataBase: new URL(siteUrl),
+  title: siteTitle,
+  description: siteDescription,
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "/",
+    siteName: "Mahmoud Ahmed Portfolio",
+    title: siteTitle,
+    description: siteDescription,
+  },
+  twitter: {
+    card: "summary",
+    title: siteTitle,
+    description: siteDescription,
+  },
 };
 
 export default function RootLayout({

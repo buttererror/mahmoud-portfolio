@@ -58,7 +58,7 @@ Build the public-safe MVP before adding optional infrastructure.
 - Do not add a CMS, authentication, database, backend endpoint, or contact form without a demonstrated need.
 - Do not add animation libraries for the MVP.
 - Keep case-study claims evidence-based and company-specific implementation details generalized.
-- Add canonical URLs and social preview metadata only after the production domain and approved imagery are available.
+- Use `https://www.buttererror.com` for canonical and social URLs. Add social preview imagery only after an approved public-safe asset is available.
 
 ## Commit Strategy
 
@@ -124,4 +124,11 @@ Before deployment:
 - Verify every implemented public route.
 - Confirm metadata and navigation destinations.
 - Confirm no placeholder or private content is exposed.
-- Replace the starter README with project-specific documentation.
+- Confirm the README reflects the current routes, setup, roadmap, and public-safe project scope.
+
+## Deployment
+
+- Production domain: `https://buttererror.com`
+- Canonical URL: `https://www.buttererror.com`
+- Hosting and CI/CD: Vercel
+- Current behavior: the apex domain permanently redirects to the canonical `www` URL
