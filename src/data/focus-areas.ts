@@ -49,7 +49,7 @@ export const frontendEngineeringFocus: EngineeringFocusArea[] = [
     title: "Delivery And Collaboration",
     items: [
       "Git",
-      "CI/CD awareness",
+      "CI/CD and deployment workflows",
       "Deployment coordination",
       "Frontend infrastructure support",
       "Debugging",

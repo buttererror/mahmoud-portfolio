@@ -24,27 +24,27 @@ export default function Home() {
       <SiteHeader />
       <main id="main-content" tabIndex={-1} className="focus:outline-none">
         <section aria-labelledby="hero-title" className="border-b border-zinc-200 bg-white">
-          <div className="mx-auto w-full max-w-6xl px-5 pb-4 pt-8 sm:px-6 sm:py-16 lg:px-8">
+          <div className="mx-auto w-full max-w-6xl px-5 pb-3 pt-6 sm:px-6 sm:py-16 lg:px-8">
             <div className="max-w-5xl">
               <p className="text-sm font-semibold uppercase text-teal-700">
                 {profile.role}
               </p>
               <h1
                 id="hero-title"
-                className="mt-3 max-w-5xl text-[1.75rem] font-bold leading-tight text-zinc-950 sm:mt-5 sm:text-5xl lg:text-6xl"
+                className="mt-2 max-w-5xl text-[1.625rem] font-bold leading-tight text-zinc-950 sm:mt-5 sm:text-5xl lg:text-6xl"
               >
                 {profile.headline}
               </h1>
-              <div className="mt-4 max-w-3xl space-y-2 text-sm leading-6 text-zinc-600 sm:mt-6 sm:space-y-3 sm:text-lg sm:leading-8">
+              <div className="mt-3 max-w-3xl space-y-1 text-sm leading-6 text-zinc-600 sm:mt-6 sm:space-y-3 sm:text-lg sm:leading-8">
                 <p>{profile.summary}</p>
                 <p>{profile.workFocus}</p>
               </div>
-              <div className="mt-5 flex flex-wrap gap-3 sm:mt-8">
+              <div className="mt-4 flex flex-wrap gap-3 sm:mt-8">
                 {heroLinks.map((link) => (
                   <CtaLink key={link.label} link={link} />
                 ))}
               </div>
-              <div className="mt-6 flex flex-wrap items-center gap-x-1 gap-y-1 border-t border-zinc-200 pt-4 sm:mt-8 sm:pt-5">
+              <div className="mt-5 flex flex-wrap items-center gap-x-1 gap-y-1 border-t border-zinc-200 pt-3 sm:mt-8 sm:pt-5">
                 <span className="mr-3 text-sm font-medium text-zinc-500">Connect</span>
                 {contactLinks.map((link) => (
                   <CtaLink key={link.label} link={link} variant="quiet" />

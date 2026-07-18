@@ -41,4 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 /learning
-/docs/complete-info.md
+# local source notes
+/docs/*-info.md
