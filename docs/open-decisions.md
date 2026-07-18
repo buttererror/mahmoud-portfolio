@@ -90,11 +90,11 @@ When a decision is resolved, update its status and move the chosen direction int
 
 ## Production URL And Social Metadata
 
-- Status: Open
-- Current default: Keep the verified title and description metadata without inventing a canonical URL or social preview image.
-- Options: Add canonical and Open Graph metadata after deployment, or configure them earlier when a final domain and approved preview asset are available.
-- Recommendation: Add canonical URL, Open Graph URL, and social preview imagery together after the production domain is confirmed.
-- Notes: Do not publish a temporary domain or unreviewed image as permanent metadata.
+- Status: Decided
+- Current default: Use `https://www.buttererror.com` as the canonical production URL and publish text-based Open Graph and X/Twitter metadata.
+- Options: Use the apex domain or its `www` redirect destination as canonical; use text-only social metadata now or wait for a dedicated preview image.
+- Recommendation: Use the final `www` destination because `https://buttererror.com` permanently redirects there. Add a social preview image separately after a public-safe 1200 x 630 asset is approved.
+- Notes: The site is deployed to Vercel with CI/CD configured. Do not publish a temporary URL or unreviewed image as permanent metadata.
 
 ## Projects Navigation Timing
 

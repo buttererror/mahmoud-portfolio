@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mahmoud Ahmed Portfolio
+
+A public, recruiter-focused portfolio for [Mahmoud Ahmed](https://github.com/buttererror), a Front-End Developer specializing in React.js, Next.js, TypeScript, dashboards, SEO, performance, and reliable frontend delivery.
+
+The site presents professional experience through concise, public-safe summaries. It is designed to communicate engineering strengths without exposing private company code, internal systems, confidential workflows, or unsupported claims.
+
+**Live site:** [buttererror.com](https://buttererror.com)
+
+## Current Experience
+
+The implemented homepage includes:
+
+- A focused introduction and direct contact links
+- Product and industry experience across renovation, healthtech, travel, e-commerce, and operations
+- Core frontend capabilities spanning dashboards, public websites, architecture, integration, and delivery
+- Public-safe case-study summaries
+- Frontend engineering focus areas
+- Current career direction and contact call to action
+- Responsive navigation, semantic structure, keyboard support, and visible focus states
+
+Only the homepage route is currently implemented. Case-study, Projects, and Contact routes are planned as later MVP slices.
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) App Router
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+- [pnpm](https://pnpm.io/)
+
+The project intentionally uses static TypeScript content and built-in framework capabilities. It does not require a CMS, database, authentication system, backend, or animation library.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 20.9.0 or newer
+- pnpm 11
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) in a browser.
 
-## Learn More
+## Available Commands
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm dev      # Start the local development server
+pnpm lint     # Run ESLint
+pnpm build    # Create a production build
+pnpm start    # Serve the production build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```txt
+src/
+  app/          # App Router layout, metadata, global styles, and routes
+  components/   # Cards, layout, sections, and shared UI
+  data/         # Typed, public-safe portfolio content
+docs/           # Product direction, decisions, and development guidance
+public/         # Static public assets
+```
 
-## Deploy on Vercel
+The homepage remains a readable composition map in `src/app/page.tsx`. Reusable presentation belongs in `src/components/`, while approved static content belongs in `src/data/`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Content And Privacy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Privacy is an explicit project requirement. Public content must:
+
+- Use approved facts and links
+- Generalize private projects, clients, architecture, and workflows
+- Avoid private screenshots, credentials, internal domains, and company-specific implementation details
+- Avoid invented metrics, evidence, links, or personal information
+- Keep backend development framed as a growth area rather than positioning Mahmoud as a Full-Stack Developer
+
+Every content change receives a privacy review before it is considered complete.
+
+## Quality Checks
+
+For meaningful code changes, run:
+
+```bash
+pnpm lint
+pnpm build
+```
+
+UI work should also be reviewed at mobile, tablet, and desktop widths, with checks for semantic heading order, keyboard navigation, focus visibility, link behavior, metadata, responsive layout, and public-safe copy.
+
+## Deployment
+
+The production site is hosted on Vercel at [buttererror.com](https://buttererror.com). CI/CD is configured through Vercel so updates to the connected production branch are built and deployed automatically.
+
+The apex domain redirects permanently to `https://www.buttererror.com`, which is used as the canonical production URL in the site's metadata.
+
+## Roadmap
+
+- Complete and refine the homepage
+- Add the Renohome case-study route
+- Add the Projects route
+- Add the Contact route
+- Finalize approved visual evidence and resume behavior
+- Create and approve a dedicated social preview image
+- Continue validating the Vercel production deployment as the MVP grows
+
+## Project Documentation
+
+- [Portfolio brief](docs/portfolio-brief.md): positioning, homepage content, and product direction
+- [Open decisions](docs/open-decisions.md): unresolved or changeable product and engineering choices
+- [Development guide](docs/development.md): architecture, route status, commits, and verification
+- [Homepage implementation plan](docs/homepage-implementation-plan.md): completed slice sequence and review history
+- [Agent guidance](AGENTS.md): repository-specific collaboration and safety rules
+
+## Contact
+
+- [LinkedIn](https://linkedin.com/in/buttererror)
+- [GitHub](https://github.com/buttererror)
+- [Email](mailto:mahmoud@buttererror.com)
+
+## License
+
+No license has been granted for reuse of this repository's source code or portfolio content.

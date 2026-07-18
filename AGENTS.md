@@ -18,7 +18,7 @@ Current guidance is allowed to evolve. When new information conflicts with a doc
 - Tailwind CSS
 - ESLint
 - pnpm
-- Intended deployment target: Vercel
+- Production hosting and CI/CD: Vercel
 
 Use `pnpm`:
 
