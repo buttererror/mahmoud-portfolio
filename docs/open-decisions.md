@@ -91,9 +91,9 @@ When a decision is resolved, update its status and move the chosen direction int
 ## Production URL And Social Metadata
 
 - Status: Decided
-- Current default: Use `https://www.buttererror.com` as the canonical production URL and publish text-based Open Graph and X/Twitter metadata.
+- Current default: Use `https://www.buttererror.com` as the canonical production URL and `public/preview.png` for Open Graph and X/Twitter previews.
 - Options: Use the apex domain or its `www` redirect destination as canonical; use text-only social metadata now or wait for a dedicated preview image.
-- Recommendation: Use the final `www` destination because `https://buttererror.com` permanently redirects there. Add a social preview image separately after a public-safe 1200 x 630 asset is approved.
+- Recommendation: Use the final `www` destination because `https://buttererror.com` permanently redirects there. Use the approved homepage preview for large social cards and replace it later if a stronger dedicated asset is designed.
 - Notes: The site is deployed to Vercel with CI/CD configured. Do not publish a temporary URL or unreviewed image as permanent metadata.
 
 ## Projects Navigation Timing

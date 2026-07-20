@@ -6,6 +6,8 @@ The site presents professional experience through concise, public-safe summaries
 
 **Live site:** [buttererror.com](https://buttererror.com)
 
+![Portfolio homepage preview](public/preview.png)
+
 ## Current Experience
 
 The implemented homepage includes:
@@ -110,7 +112,6 @@ The apex domain redirects permanently to `https://www.buttererror.com`, which is
 - Add the Projects route
 - Add the Contact route
 - Finalize approved visual evidence and resume behavior
-- Create and approve a dedicated social preview image
 - Continue validating the Vercel production deployment as the MVP grows
 
 ## Project Documentation
