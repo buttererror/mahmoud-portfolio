@@ -58,7 +58,7 @@ Build the public-safe MVP before adding optional infrastructure.
 - Do not add a CMS, authentication, database, backend endpoint, or contact form without a demonstrated need.
 - Do not add animation libraries for the MVP.
 - Keep case-study claims evidence-based and company-specific implementation details generalized.
-- Use `https://www.buttererror.com` for canonical and social URLs. Add social preview imagery only after an approved public-safe asset is available.
+- Use `https://www.buttererror.com` for canonical and social URLs. The approved social preview is `public/preview.png`.
 
 ## Commit Strategy
 

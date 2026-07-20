@@ -31,11 +31,20 @@ export const metadata: Metadata = {
     siteName: "Mahmoud Ahmed Portfolio",
     title: siteTitle,
     description: siteDescription,
+    images: [
+      {
+        url: "/preview.png",
+        width: 2560,
+        height: 1272,
+        alt: "Mahmoud Ahmed portfolio homepage preview",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
+    images: ["/preview.png"],
   },
 };
 
