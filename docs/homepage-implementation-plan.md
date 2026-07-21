@@ -10,7 +10,7 @@ The final homepage audit confirmed:
 
 - One semantic `h1` and consistent section heading hierarchy.
 - Keyboard-accessible navigation with a skip link and visible focus states.
-- Real GitHub, LinkedIn, and email destinations with no fake public links.
+- Real GitHub and LinkedIn destinations with no fake public links.
 - Responsive layouts at mobile, tablet, and desktop widths.
 - Public-safe copy with no hidden source names or private project details.
 - Successful lint and production build checks.
@@ -67,7 +67,7 @@ docs(decisions): record homepage implementation approach
 
 Update static data before changing layout:
 
-- Replace placeholder links with decided public links: LinkedIn, GitHub, and email.
+- Replace placeholder links with decided public links: LinkedIn and GitHub.
 - Keep resume unresolved; do not invent a resume URL.
 - Update profile headline, summary, current direction, and footer copy.
 - Add domain/product experience data.
@@ -170,7 +170,7 @@ Update final homepage sections:
 - Contact CTA.
 - Footer.
 
-Use LinkedIn, GitHub, and email. Keep backend learning secondary. Do not present Mahmoud as a Full-Stack Developer.
+Use LinkedIn and GitHub. Keep backend learning secondary. Do not present Mahmoud as a Full-Stack Developer.
 
 ### Slice 6 Review
 
@@ -213,7 +213,7 @@ The homepage refactor is done when:
 - It shows industry and product breadth.
 - It shows frontend capabilities without exposing private stacks.
 - It includes four selected case-study cards.
-- It links to LinkedIn, GitHub, and email.
+- It links to LinkedIn and GitHub.
 - It has correct metadata.
 - It is responsive.
 - It uses semantic HTML.

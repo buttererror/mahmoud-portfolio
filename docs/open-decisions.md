@@ -19,10 +19,10 @@ When a decision is resolved, update its status and move the chosen direction int
 ## Final Contact Links
 
 - Status: Decided
-- Current default: Use LinkedIn, GitHub, and email on the homepage.
-- Options: Email link, LinkedIn link, GitHub link, resume download, contact form, or a subset of these.
-- Recommendation: Use direct email, LinkedIn, and GitHub links for MVP; avoid a contact form until there is a real need.
-- Notes: LinkedIn is `https://linkedin.com/in/buttererror`, GitHub is `https://github.com/buttererror`, and email is `mahmoud@buttererror.com`. Resume behavior remains a separate open decision.
+- Current default: Use LinkedIn and GitHub on the homepage. Do not publish an email address.
+- Options: LinkedIn link, GitHub link, resume download, contact form, or a subset of these.
+- Recommendation: Use LinkedIn as the primary contact method and GitHub as a supporting professional link; avoid a contact form until there is a real need.
+- Notes: LinkedIn is `https://linkedin.com/in/buttererror` and GitHub is `https://github.com/buttererror`. Resume behavior remains a separate open decision.
 
 ## Personal And Work Evidence Inputs
 

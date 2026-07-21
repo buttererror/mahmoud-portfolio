@@ -27,13 +27,9 @@ export const heroLinks: PortfolioLink[] = [
 
 export const contactLinks: PortfolioLink[] = [
   {
-    label: "Email",
-    href: "mailto:mahmoud@buttererror.com",
-    isPrimary: true,
-  },
-  {
     label: "LinkedIn",
     href: "https://linkedin.com/in/buttererror",
+    isPrimary: true,
     isExternal: true,
   },
   {
