@@ -20,6 +20,7 @@ Do not expose:
 - Exact company tech stacks.
 - Private dashboard screenshots.
 - Credentials, private APIs, or confidential implementation details.
+- Email address.
 - Phone number.
 
 It is acceptable to use public-safe categories, broad domains, approved public links, and generalized project descriptions.
@@ -30,9 +31,8 @@ It is acceptable to use public-safe categories, broad domains, approved public l
 - Primary role: Front-End Developer.
 - LinkedIn: `https://linkedin.com/in/buttererror`
 - GitHub: `https://github.com/buttererror`
-- Email: `mahmoud@buttererror.com`
 
-Do not expose phone number on the portfolio.
+Do not expose an email address or phone number on the portfolio.
 
 ## Main Positioning
 
@@ -99,7 +99,6 @@ Supporting links:
 
 - LinkedIn.
 - GitHub.
-- Email.
 
 Layout notes:
 
@@ -252,13 +251,12 @@ Links:
 
 - LinkedIn.
 - GitHub.
-- Email.
 
 Layout notes:
 
 - Keep the contact section simple.
 - No form required for MVP unless easy to implement safely.
-- Email link is enough for version 1.
+- LinkedIn is the primary contact method for version 1.
 
 ### 9. Footer
 
@@ -270,7 +268,6 @@ Footer links:
 
 - LinkedIn.
 - GitHub.
-- Email.
 
 ## Design Direction
 
@@ -363,7 +360,7 @@ The homepage is ready when:
 - It shows industry and product breadth.
 - It shows frontend capabilities without exposing private stacks.
 - It includes four selected case-study cards.
-- It links to LinkedIn, GitHub, and email.
+- It links to LinkedIn and GitHub.
 - It has basic metadata.
 - It is responsive.
 - It uses semantic HTML.

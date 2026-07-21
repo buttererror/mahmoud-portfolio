@@ -56,7 +56,7 @@ Private background is source material, not publishable copy.
 
 After every task, review changed files for:
 
-- Secrets, credentials, private names, domains, client details, internal tools, and phone numbers
+- Secrets, credentials, private names, domains, client details, internal tools, email addresses, and phone numbers
 - Unsupported metrics, exaggerated claims, and invented evidence
 - Fake, broken, placeholder, or unapproved links
 - Privacy leaks in UI copy, metadata, docs, alt text, and assets

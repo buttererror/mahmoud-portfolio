@@ -126,7 +126,6 @@ The apex domain redirects permanently to `https://www.buttererror.com`, which is
 
 - [LinkedIn](https://linkedin.com/in/buttererror)
 - [GitHub](https://github.com/buttererror)
-- [Email](mailto:mahmoud@buttererror.com)
 
 ## License
 
