@@ -1,27 +1,27 @@
-export type FrontendCapability = {
+export type EngineeringCapability = {
   title: string;
   description: string;
 };
 
-export const coreFrontendCapabilities: FrontendCapability[] = [
+export const coreEngineeringCapabilities: EngineeringCapability[] = [
   {
-    title: "Dashboards And Internal Tools",
+    title: "Product Interfaces",
     description:
-      "Dashboard interfaces for admin teams, contractors, operations teams, service providers, and business users across B2B and B2C contexts.",
+      "Responsive applications, dashboards, forms, and operational workflows built with reusable frontend patterns and accessible interactions.",
   },
   {
-    title: "Public Websites And Landing Pages",
+    title: "APIs And Application Logic",
     description:
-      "Public-facing pages focused on responsive UI, SEO, page structure, performance, maintainability, and collaboration with marketing or SEO teams.",
+      "REST APIs, authentication, validation, error handling, and service-layer logic that support complete product features.",
   },
   {
-    title: "Frontend Architecture And Refactoring",
+    title: "Relational Data And Persistence",
     description:
-      "Frontend architecture decisions, reusable UI patterns, progressive refactoring, and maintainability improvements while continuing to deliver new features.",
+      "PostgreSQL data modeling and Prisma-backed persistence designed around current application requirements and workflows.",
   },
   {
-    title: "Integration And Delivery",
+    title: "Testing And Reliable Delivery",
     description:
-      "API-driven interfaces, production release support, deployment coordination, and collaboration with backend, UI/UX, product, and system teams.",
+      "Automated API, integration, and database-backed testing supported by practical Git, Docker, CI/CD, and deployment workflows.",
   },
 ];

@@ -3,9 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const siteUrl = "https://www.buttererror.com";
-const siteTitle = "Mahmoud Ahmed | Front-End Developer";
+const siteTitle = "Mahmoud Ahmed | Full-Stack Developer";
 const siteDescription =
-  "Front-End Developer focused on React.js, Next.js, TypeScript, dashboards, SEO, performance, and reliable frontend delivery.";
+  "Full-Stack Developer with 7+ years of frontend experience building product interfaces, APIs, relational data, and reliable web applications.";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

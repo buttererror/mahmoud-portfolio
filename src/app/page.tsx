@@ -5,10 +5,10 @@ import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { Section } from "@/components/sections/section";
 import { CtaLink } from "@/components/ui/cta-link";
-import { coreFrontendCapabilities } from "@/data/capabilities";
+import { coreEngineeringCapabilities } from "@/data/capabilities";
 import { selectedCaseStudies } from "@/data/case-studies";
 import { domainExperience } from "@/data/domains";
-import { frontendEngineeringFocus } from "@/data/focus-areas";
+import { fullStackEngineeringFocus } from "@/data/focus-areas";
 import { contactLinks, heroLinks } from "@/data/links";
 import { profile } from "@/data/profile";
 
@@ -57,8 +57,8 @@ export default function Home() {
         <Section
           id="experience"
           eyebrow="Domain experience"
-          title="Frontend experience across products and industries"
-          description="I've worked on frontend applications across different domains and product types, from public websites to internal dashboards and operational platforms."
+          title="Product experience across industries"
+          description="I've worked across public websites, internal dashboards, operational platforms, and application workflows in several product domains."
           tone="white"
         >
           <div className="grid gap-4 md:grid-cols-12">
@@ -75,11 +75,11 @@ export default function Home() {
         <Section
           id="capabilities"
           eyebrow="Core capabilities"
-          title="Core frontend capabilities"
-          description="I focus on building frontend systems that are usable, maintainable, performant, and aligned with product needs."
+          title="What I build"
+          description="I deliver complete product features across interfaces, APIs, application logic, persistence, and testing."
         >
           <div className="grid gap-4 md:grid-cols-2">
-            {coreFrontendCapabilities.map((item) => (
+            {coreEngineeringCapabilities.map((item) => (
               <InfoCard key={item.title} item={item} />
             ))}
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
           id="case-studies"
           eyebrow="Selected work"
           title="Selected case studies"
-          description="Most of my professional work is private, so these case studies focus on public-safe summaries of responsibilities, product context, frontend decisions, and engineering approach."
+          description="These public-safe summaries show the products, responsibilities, and engineering areas I can discuss without exposing confidential implementation details."
           tone="white"
         >
           <div className="grid gap-4 md:grid-cols-2">
@@ -102,11 +102,11 @@ export default function Home() {
         <Section
           id="engineering-focus"
           eyebrow="Engineering approach"
-          title="Frontend engineering focus"
-          description="The tools vary by project, but my frontend work is consistently focused on clarity, maintainability, performance, and product delivery."
+          title="Full-stack engineering"
+          description="My strongest professional foundation is frontend engineering, extended by hands-on backend, database, testing, and delivery work."
         >
           <div className="grid gap-4 md:grid-cols-2">
-            {frontendEngineeringFocus.map((focusArea) => (
+            {fullStackEngineeringFocus.map((focusArea) => (
               <EngineeringFocusCard key={focusArea.title} focusArea={focusArea} />
             ))}
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
           <div className="grid gap-6 border-t border-zinc-200 pt-6 md:grid-cols-2 md:gap-10">
             <p className="text-base leading-7 text-zinc-700">{profile.roleDirection}</p>
             <div className="border-l-2 border-teal-600 pl-4">
-              <p className="text-sm font-semibold text-zinc-950">Expanding product perspective</p>
+              <p className="text-sm font-semibold text-zinc-950">Current full-stack work</p>
               <p className="mt-2 text-sm leading-6 text-zinc-600">
                 {profile.backendDirection}
               </p>

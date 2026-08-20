@@ -3,7 +3,7 @@ export type EngineeringFocusArea = {
   items: string[];
 };
 
-export const frontendEngineeringFocus: EngineeringFocusArea[] = [
+export const fullStackEngineeringFocus: EngineeringFocusArea[] = [
   {
     title: "Modern Frontend Development",
     items: [
@@ -20,41 +20,41 @@ export const frontendEngineeringFocus: EngineeringFocusArea[] = [
     ],
   },
   {
-    title: "UI Systems And Forms",
+    title: "Backend And Data",
+    items: [
+      "Node.js",
+      "NestJS",
+      "REST APIs",
+      "PostgreSQL",
+      "Prisma ORM",
+      "JWT authentication",
+      "DTO validation",
+      "Relational data modeling",
+    ],
+  },
+  {
+    title: "Product Interfaces",
     items: [
       "Reusable components",
       "Responsive layouts",
-      "Design-system collaboration",
-      "Form handling",
-      "Validation",
+      "Forms and validation",
       "Tables and filters",
       "Dashboards",
       "Complex user flows",
+      "SEO and performance",
+      "Accessible UI",
     ],
   },
   {
-    title: "SEO And Performance",
+    title: "Testing And Delivery",
     items: [
-      "Core Web Vitals",
-      "Lighthouse",
-      "Metadata",
-      "Semantic structure",
-      "Image optimization",
-      "Lazy loading",
-      "Bundle awareness",
-      "Public-page performance",
-    ],
-  },
-  {
-    title: "Delivery And Collaboration",
-    items: [
+      "Jest",
+      "Supertest",
+      "API and integration testing",
+      "Database-backed testing",
       "Git",
+      "Docker",
       "CI/CD and deployment workflows",
-      "Deployment coordination",
-      "Frontend infrastructure support",
-      "Debugging",
-      "Production issue handling",
-      "Cross-functional collaboration",
     ],
   },
 ];

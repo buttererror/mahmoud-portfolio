@@ -1,6 +1,6 @@
 # Homepage Implementation Plan
 
-This plan guides the homepage refactor from the current prototype toward the latest direction in [portfolio-brief.md](portfolio-brief.md).
+This document records the completed homepage implementation sequence. The homepage positioning was updated on 2026-08-20 from frontend-only to Full-Stack Developer with 7+ years of frontend experience; [portfolio-brief.md](portfolio-brief.md) owns the current copy direction.
 
 ## Status
 
@@ -71,9 +71,9 @@ Update static data before changing layout:
 - Keep resume unresolved; do not invent a resume URL.
 - Update profile headline, summary, current direction, and footer copy.
 - Add domain/product experience data.
-- Add core frontend capability data.
+- Add core engineering capability data.
 - Replace the current three case-study cards with four public-safe cards.
-- Replace direct `techStack` data with frontend engineering focus data.
+- Replace direct `techStack` data with engineering focus data.
 - Keep company-specific stacks generalized.
 
 ### Slice 1 Review
@@ -110,7 +110,7 @@ Before moving on:
 Add or refactor sections for:
 
 - Domain and product experience.
-- Core frontend capabilities.
+- Core engineering capabilities.
 
 Use compact cards or rows. Keep each item short and recruiter-friendly.
 
@@ -126,9 +126,9 @@ Before moving on:
 
 Refactor case studies to the four-card model:
 
+- Healthcare Operations Platform.
 - Frontend Platforms And Dashboards.
 - Renohome Frontend Delivery.
-- SEO And Performance-Focused Websites.
 - Healthtech Applications.
 
 Use public-safe summaries and render CTAs only when real detail pages exist.
@@ -141,16 +141,16 @@ Before moving on:
 - Confirm no private dashboard screenshots are referenced.
 - Confirm Renohome includes the live-site-change caveat.
 
-### Slice 5: Frontend Engineering Focus
+### Slice 5: Engineering Focus
 
-Replace the direct "Tech Stack" section with "Frontend Engineering Focus."
+Replace the direct "Tech Stack" section with an engineering-focus section.
 
 The section should group technologies by engineering focus:
 
 - Modern Frontend Development.
-- UI Systems And Forms.
-- SEO And Performance.
-- Delivery And Collaboration.
+- Backend And Data.
+- Product Interfaces.
+- Testing And Delivery.
 
 Do not attach exact technologies to specific private company projects.
 
@@ -170,7 +170,7 @@ Update final homepage sections:
 - Contact CTA.
 - Footer.
 
-Use LinkedIn and GitHub. Keep backend learning secondary. Do not present Mahmoud as a Full-Stack Developer.
+Use LinkedIn and GitHub. The 2026-08-20 positioning decision supersedes the original frontend-only rule: present Mahmoud as a Full-Stack Developer while keeping the experience timeline explicit.
 
 ### Slice 6 Review
 
@@ -211,7 +211,7 @@ The homepage refactor is done when:
 
 - It matches [portfolio-brief.md](portfolio-brief.md).
 - It shows industry and product breadth.
-- It shows frontend capabilities without exposing private stacks.
+- It shows full-stack capabilities without exposing private stacks or product-domain details.
 - It includes four selected case-study cards.
 - It links to LinkedIn and GitHub.
 - It has correct metadata.

@@ -52,7 +52,7 @@ Private background is source material, not publishable copy.
 - Do not inspect hidden private notes unless Mahmoud explicitly asks or approves it.
 - Never name, link to, or require hidden private sources from tracked files or public UI.
 - Ask for the specific public-safe facts needed when private context would improve a claim or case study.
-- Keep backend experience secondary; do not describe Mahmoud as a Full-Stack Developer unless that positioning is explicitly changed.
+- Position Mahmoud as a Full-Stack Developer with 7+ years of frontend experience. Keep the difference between long-term frontend experience and recent hands-on full-stack work explicit.
 
 After every task, review changed files for:
 

@@ -32,6 +32,14 @@ When a decision is resolved, update its status and move the chosen direction int
 - Recommendation: Request only the info needed for the current decision or public claim, then keep unsupported details out of the site.
 - Notes: Useful inputs include role targets, final links, resume facts, screenshots, real metrics, case-study responsibilities, constraints, team role, and privacy boundaries. Treat private context as source material only; publish generalized, approved facts.
 
+## Professional Positioning
+
+- Status: Decided
+- Current default: Present Mahmoud as a Full-Stack Developer with 7+ years of frontend experience.
+- Options: Front-End Developer, Frontend-Leaning Full-Stack Developer, or Full-Stack Developer with an explicit frontend-experience qualifier.
+- Recommendation: Use Full-Stack Developer as the primary title for consistency with the approved resume, then distinguish long-term frontend experience from recent hands-on full-stack work in supporting copy.
+- Notes: Approved by Mahmoud on 2026-08-20. Do not imply 7+ years of backend or full-stack experience.
+
 ## Privacy Review After Tasks
 
 - Status: Decided
@@ -66,11 +74,11 @@ When a decision is resolved, update its status and move the chosen direction int
 
 ## Full-Stack Web App Visibility
 
-- Status: Deferred
-- Current default: Add later only after a working vertical slice exists.
-- Options: Hide for now, list as in-progress, or show after MVP-quality screenshots and README exist.
-- Recommendation: Hide for now.
-- Notes: Do not reveal the private project name or domain. If this work is shown later, describe it generically as a full-stack web app and generalize all details.
+- Status: Decided
+- Current default: Show the work as an in-progress Healthcare Operations Platform.
+- Options: Hide it, publish its real project identity, or present only public-safe engineering areas.
+- Recommendation: Use the same public-safe name already established on Mahmoud's GitHub while keeping sensitive workflows and private implementation details generalized.
+- Notes: Mahmoud approved Healthcare Operations Platform on 2026-08-20. The homepage may mention React, TypeScript, NestJS, PostgreSQL, Prisma, authentication, validation, and automated testing without exposing sensitive domain entities or private architecture.
 
 ## Visual Direction References
 

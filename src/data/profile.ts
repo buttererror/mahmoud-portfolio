@@ -1,20 +1,20 @@
 export const profile = {
   name: "Mahmoud Ahmed",
-  role: "Front-End Developer",
+  role: "Full-Stack Developer",
   headline:
-    "I build React.js and Next.js frontend platforms, dashboards, and public websites focused on performance, SEO, and reliable frontend delivery.",
+    "I build full-stack web applications backed by 7+ years of frontend engineering experience.",
   summary:
-    "I'm a Front-End Developer with 7+ years of experience building production web applications, landing pages, dashboards, and internal platforms across renovation, healthtech, travel, e-commerce, and operations domains.",
+    "I'm a Full-Stack Developer with 7+ years of frontend experience building production applications, dashboards, public websites, and internal platforms.",
   workFocus:
-    "My work sits between UI implementation, frontend architecture, API integration, SEO, performance optimization, and production delivery.",
+    "My current work spans React, Next.js, and TypeScript interfaces alongside NestJS APIs, PostgreSQL data models, Prisma persistence, authentication, validation, and automated testing.",
   careerDirection:
-    "My main professional focus is frontend development with React.js, Next.js, TypeScript, dashboards, SEO, and performance optimization.",
+    "I bring deep frontend experience to full-stack product development, connecting interface decisions with APIs, application logic, and relational data.",
   backendDirection:
-    "I'm also expanding my backend knowledge with Node.js, NestJS, PostgreSQL, and Prisma to better understand full product delivery and improve frontend-backend collaboration.",
+    "My recent work includes REST APIs, authentication, validation, relational persistence, and automated integration testing with Node.js, NestJS, PostgreSQL, and Prisma.",
   roleDirection:
-    "I'm currently focused on roles where I can contribute to production frontend applications, dashboard interfaces, scalable UI systems, and performance-focused web experiences.",
+    "I'm focused on full-stack and frontend-leaning full-stack roles where strong interface engineering supports reliable end-to-end product delivery.",
   contactMessage:
-    "I'm open to frontend opportunities focused on React.js, Next.js, TypeScript, dashboard applications, SEO, performance, and modern web platforms.",
+    "I'm interested in full-stack and frontend-leaning full-stack opportunities where deep frontend experience is valuable alongside practical backend and database development.",
   footerNote:
-    "Front-End Developer focused on React.js, Next.js, TypeScript, dashboards, SEO, performance, and reliable frontend delivery.",
+    "Full-Stack Developer with 7+ years of frontend engineering experience.",
 };

@@ -1,6 +1,6 @@
 # Mahmoud Ahmed Portfolio
 
-A public, recruiter-focused portfolio for [Mahmoud Ahmed](https://github.com/buttererror), a Front-End Developer specializing in React.js, Next.js, TypeScript, dashboards, SEO, performance, and reliable frontend delivery.
+A public, recruiter-focused portfolio for [Mahmoud Ahmed](https://github.com/buttererror), a Full-Stack Developer with 7+ years of frontend experience and hands-on backend, database, testing, and delivery work.
 
 The site presents professional experience through concise, public-safe summaries. It is designed to communicate engineering strengths without exposing private company code, internal systems, confidential workflows, or unsupported claims.
 
@@ -14,9 +14,9 @@ The implemented homepage includes:
 
 - A focused introduction and direct contact links
 - Product and industry experience across renovation, healthtech, travel, e-commerce, and operations
-- Core frontend capabilities spanning dashboards, public websites, architecture, integration, and delivery
+- Full-stack capabilities spanning product interfaces, APIs, application logic, relational data, testing, and delivery
 - Public-safe case-study summaries
-- Frontend engineering focus areas
+- Full-stack engineering focus areas grounded in deep frontend experience
 - Current career direction and contact call to action
 - Responsive navigation, semantic structure, keyboard support, and visible focus states
 
@@ -84,7 +84,7 @@ Privacy is an explicit project requirement. Public content must:
 - Generalize private projects, clients, architecture, and workflows
 - Avoid private screenshots, credentials, internal domains, and company-specific implementation details
 - Avoid invented metrics, evidence, links, or personal information
-- Keep backend development framed as a growth area rather than positioning Mahmoud as a Full-Stack Developer
+- Keep the distinction between 7+ years of frontend experience and recent hands-on full-stack work explicit
 
 Every content change receives a privacy review before it is considered complete.
 
