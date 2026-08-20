@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: siteDescription,
     images: [
       {
-        url: "/preview.png",
+        url: "/preview-fullstack.png",
         width: 2560,
         height: 1272,
         alt: "Mahmoud Ahmed portfolio homepage preview",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteTitle,
     description: siteDescription,
-    images: ["/preview.png"],
+    images: ["/preview-fullstack.png"],
   },
 };
 

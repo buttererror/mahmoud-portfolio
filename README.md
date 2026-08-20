@@ -6,7 +6,7 @@ The site presents professional experience through concise, public-safe summaries
 
 **Live site:** [buttererror.com](https://buttererror.com)
 
-![Portfolio homepage preview](public/preview.png)
+![Portfolio homepage preview](public/preview-fullstack.png)
 
 ## Current Experience
 
