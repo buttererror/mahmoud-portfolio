@@ -5,7 +5,7 @@ import "./globals.css";
 const siteUrl = "https://www.buttererror.com";
 const siteTitle = "Mahmoud Ahmed | Full-Stack Developer";
 const siteDescription =
-  "Full-Stack Developer with 7+ years of frontend experience building product interfaces, APIs, relational data, and reliable web applications.";
+  "Full-Stack Developer with 8+ years of frontend experience building product interfaces, APIs, relational data, and reliable web applications.";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

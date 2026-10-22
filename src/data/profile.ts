@@ -2,9 +2,9 @@ export const profile = {
   name: "Mahmoud Ahmed",
   role: "Full-Stack Developer",
   headline:
-    "I build full-stack web applications backed by 7+ years of frontend engineering experience.",
+    "I build full-stack web applications backed by 8+ years of frontend engineering experience.",
   summary:
-    "I'm a Full-Stack Developer with 7+ years of frontend experience building production applications, dashboards, public websites, and internal platforms.",
+    "I'm a Full-Stack Developer with 8+ years of frontend experience building production applications, dashboards, public websites, and internal platforms.",
   workFocus:
     "My current work spans React, Next.js, and TypeScript interfaces alongside NestJS APIs, PostgreSQL data models, Prisma persistence, authentication, validation, and automated testing.",
   careerDirection:
@@ -16,5 +16,5 @@ export const profile = {
   contactMessage:
     "I'm interested in full-stack and frontend-leaning full-stack opportunities where deep frontend experience is valuable alongside practical backend and database development.",
   footerNote:
-    "Full-Stack Developer with 7+ years of frontend engineering experience.",
+    "Full-Stack Developer with 8+ years of frontend engineering experience.",
 };

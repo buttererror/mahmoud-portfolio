@@ -1,6 +1,6 @@
 # Homepage Implementation Plan
 
-This document records the completed homepage implementation sequence. The homepage positioning was updated on 2026-08-20 from frontend-only to Full-Stack Developer with 7+ years of frontend experience; [portfolio-brief.md](portfolio-brief.md) owns the current copy direction.
+This document records the completed homepage implementation sequence. The homepage positioning was updated on 2026-08-20 from frontend-only to Full-Stack Developer with 8+ years of frontend experience; [portfolio-brief.md](portfolio-brief.md) owns the current copy direction.
 
 ## Status
 

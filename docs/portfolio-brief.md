@@ -4,7 +4,7 @@ This document owns the product and public-content direction for Mahmoud Ahmed's 
 
 ## Project Goal
 
-Build a professional, recruiter-focused portfolio for a Full-Stack Developer with 7+ years of frontend experience and current hands-on work across interfaces, APIs, relational data, authentication, validation, and automated testing.
+Build a professional, recruiter-focused portfolio for a Full-Stack Developer with 8+ years of frontend experience and current hands-on work across interfaces, APIs, relational data, authentication, validation, and automated testing.
 
 The portfolio should support job applications, LinkedIn, GitHub, and resume refinement. It should demonstrate credible engineering work through clear evidence rather than heavy animation or inflated claims.
 
@@ -26,17 +26,17 @@ It is acceptable to use approved company names, broad industries, generalized pr
 
 - Name: Mahmoud Ahmed.
 - Primary role: Full-Stack Developer.
-- Experience qualifier: 7+ years of frontend experience.
+- Experience qualifier: 8+ years of frontend experience.
 - LinkedIn: `https://linkedin.com/in/buttererror`
 - GitHub: `https://github.com/buttererror`
 
-Do not imply 7+ years of backend or full-stack experience. The long-term professional foundation is frontend engineering; the full-stack title is supported by current hands-on end-to-end application work.
+Do not imply 8+ years of backend or full-stack experience. The long-term professional foundation is frontend engineering; the full-stack title is supported by current hands-on end-to-end application work.
 
 ## Main Positioning
 
 The homepage should quickly communicate:
 
-> Mahmoud Ahmed is a Full-Stack Developer with 7+ years of frontend experience who now delivers product features across interfaces, APIs, application logic, relational data, and testing.
+> Mahmoud Ahmed is a Full-Stack Developer with 8+ years of frontend experience who now delivers product features across interfaces, APIs, application logic, relational data, and testing.
 
 Recommended strategic message:
 
@@ -63,11 +63,11 @@ Label:
 
 Headline:
 
-> I build full-stack web applications backed by 7+ years of frontend engineering experience.
+> I build full-stack web applications backed by 8+ years of frontend engineering experience.
 
 Supporting copy:
 
-> I'm a Full-Stack Developer with 7+ years of frontend experience building production applications, dashboards, public websites, and internal platforms.
+> I'm a Full-Stack Developer with 8+ years of frontend experience building production applications, dashboards, public websites, and internal platforms.
 
 > My current work spans React, Next.js, and TypeScript interfaces alongside NestJS APIs, PostgreSQL data models, Prisma persistence, authentication, validation, and automated testing.
 

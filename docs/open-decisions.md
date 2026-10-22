@@ -35,10 +35,10 @@ When a decision is resolved, update its status and move the chosen direction int
 ## Professional Positioning
 
 - Status: Decided
-- Current default: Present Mahmoud as a Full-Stack Developer with 7+ years of frontend experience.
+- Current default: Present Mahmoud as a Full-Stack Developer with 8+ years of frontend experience.
 - Options: Front-End Developer, Frontend-Leaning Full-Stack Developer, or Full-Stack Developer with an explicit frontend-experience qualifier.
 - Recommendation: Use Full-Stack Developer as the primary title for consistency with the approved resume, then distinguish long-term frontend experience from recent hands-on full-stack work in supporting copy.
-- Notes: Approved by Mahmoud on 2026-08-20. Do not imply 7+ years of backend or full-stack experience.
+- Notes: Approved by Mahmoud on 2026-08-20. Do not imply 8+ years of backend or full-stack experience.
 
 ## Privacy Review After Tasks
 
